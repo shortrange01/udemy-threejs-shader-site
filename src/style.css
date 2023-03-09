@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  color: #fff;
+  font-family: 'Climate Crisis', cursive;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 100;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+main h1 {
+  font-size: 5rem;
+  white-space: nowrap;
+  margin-bottom: 25px;
+}
+
+main p {
+  font-size: 20px;
+}
